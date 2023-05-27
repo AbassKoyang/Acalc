@@ -319,9 +319,13 @@ nav img{
     justify-content:center ;
 }
 
+.home__page img{
+    width: 150px;
+}
+
 .homepage__inner{
     width: 50%;
-    height: 60%;
+    height: 50%;
     background-color: black;
     border-radius: 20px;
     display: flex;
@@ -337,7 +341,7 @@ nav img{
     font-weight: 600;
     font-size: 23px;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: transparent;
@@ -348,5 +352,88 @@ nav img{
 
 .home__page a:hover{
     background-color: #F21CF6;
+}
+
+
+@media screen and (min-width:767px) and (max-width:1027px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .calculator__con{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border-radius: 0px;
+    }
+
+    .home__page{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border-radius: 0px;
+    }
+
+    .homepage__inner{
+        width: 50%;
+        height: 40%;
+        background-color: black;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .homepage__inner img{
+        width: 220px;
+    }
+
+    
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .calculator__con{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border-radius: 0px;
+    }
+
+    .home__page{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border-radius: 0px;
+    }
+
+    .homepage__inner{
+        width: 50%;
+        height: 50%;
+        background-color: black;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .homepage__inner img{
+        width: 200px;
+    }
+
+    
 }
 
