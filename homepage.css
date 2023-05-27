@@ -187,7 +187,7 @@ nav img{
 .nav__list li a:hover{
     color: #F21CF6;
 }
-.active{
+.nav__list li .active{
     color: #F21CF6;
 }
 
