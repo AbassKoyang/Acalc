@@ -185,6 +185,7 @@ nav img{
     margin-top: 10px;
     list-style: none;
     font-family: 'montserrat';
+    font-weight: 500;
 }
 
 
@@ -193,6 +194,7 @@ nav img{
     font-size: 15px;
     color: white;
     margin-top: 20px;
+    font-weight: 500;
 }
 .nav__list li a:hover{
     color: #F21CF6;
@@ -401,22 +403,43 @@ nav img{
         padding-left: 75px;
     }
 
-    .sec__2 input{
-        width: 97%;
-        height: 70%;
+    .sec__2 .input__con{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
         background-color: transparent;
-        border: 1px solid #d1cfcfa0;
-        border-radius: 20px;
-        font-size: 30px;
-        color: white;
-        padding-left: 20px;
-        outline: none;
-        stroke: none;
+        padding-left: 0px;
     }
     
-    .sec__2 input:focus{
-        border: 1px solid #D1CFCF;
+    .input__con input{
+        width: 30%;
+        height: 50px;
+        background-color: #2A2D37;
+        border: 1px solid #d1cfcfa0;
+        border-radius: 0;
+        outline: none;
+        stroke: none;
+        padding-left: 10px;
+        font-size: 15px;
+        color: white;
     }
+    input::placeholder{
+        font-size: 20px;
+    }
+    .input__con p{
+        padding: 10px;
+        background-color: #2A2D37;
+        margin-right: 10px;
+    }
+    
+    .input__con input:focus{
+        border: 1px solid #D1CFCF;
+        border-radius: 0;
+    }
+
+ 
     
     .sec__2 p{
         font-family: 'montserrat';
@@ -449,8 +472,8 @@ nav img{
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 380px;
-        height: 750px;
+        width: 300px;
+        height: 600px;
         background-color: black;
         display: flex;
         flex-direction: column;
@@ -459,24 +482,34 @@ nav img{
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
         transition: all 1.5s ease;
-        padding: 5px 5px;
+        padding: 5px 25px;
         display: none;
     }
     
     .nav__list li{
-        font-size: 35px;
+        font-size: 25px;
         color: white;
         margin-top: 20px;
         list-style: none;
         font-family: 'montserrat';
     }
+    .nav__list ul{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0;
+    }
     
     
     .nav__list li a{
         text-decoration: none;
-        font-size: 35px;
+        font-size: 25px;
         color: white;
         margin-top: 30px;
+        font-weight: 500;
     }
 
    .nav__list li .active{
@@ -514,6 +547,7 @@ nav img{
         text-decoration: none;
         font-size: 28px;
         color: white;
+        font-weight: 500;
     }
     .bxs-help-circle, .bxs-info-circle{
         font-size: 30px;
@@ -539,6 +573,42 @@ nav img{
     }
     .fa-bars{
         font-size: 35px;
+    }
+
+    .sec__2 .input__con{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: transparent;
+        padding-left: 0px;
+    }
+    
+    .input__con input{
+        width: 30%;
+        height: 30px;
+        background-color: #2A2D37;
+        border: 1px solid #d1cfcfa0;
+        border-radius: 0;
+        outline: none;
+        stroke: none;
+        padding-left: 10px;
+        font-size: 15px;
+        color: white;
+    }
+    ::placeholder{
+        font-size: 13px;
+    }
+    .input__con p{
+        padding: 10px;
+        background-color: #2A2D37;
+        margin-right: 10px;
+    }
+    
+    .input__con input:focus{
+        border: 1px solid #D1CFCF;
+        border-radius: 0;
     }
 
     .nav__list{
@@ -576,6 +646,7 @@ nav img{
         margin-top: 15px;
         list-style: none;
         font-family: 'montserrat';
+        font-weight: 400;
     }
     
     
@@ -584,6 +655,7 @@ nav img{
         font-size: 18px;
         color: white;
         margin-top: 15px;
+        font-weight: 400;
     }
 
     .nav__list li .active{
@@ -604,6 +676,7 @@ nav img{
         text-decoration: none;
         font-size: 18px;
         color: white;
+        font-weight: 400;
     }
     .bxs-help-circle, .bxs-info-circle{
         font-size: 20px;
